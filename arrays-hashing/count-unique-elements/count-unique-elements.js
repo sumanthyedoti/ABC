@@ -12,3 +12,5 @@ function countUniqueValues(arr) {
 }
 
 console.log(countUniqueValues([1, 1, 2, 3, 3, 2, 2, 2, 2, 3, 3]));
+
+module.exports = countUniqueValues;
