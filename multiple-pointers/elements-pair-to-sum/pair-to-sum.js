@@ -1,6 +1,6 @@
 /*
  * find a pair of elements that sum to given number
- * array is sorted
+ * input array is sorted
  */
 function pairToSum(arr, num) {
   for (let i = 0, j = arr.length - 1; i < j; ) {
