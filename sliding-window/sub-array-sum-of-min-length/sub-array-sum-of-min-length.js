@@ -26,3 +26,5 @@ function sumArraySumOfMinLength(arr, sum) {
 console.log(sumArraySumOfMinLength([2, 1, 5, 2, 4], 9));
 console.log(sumArraySumOfMinLength([2, 3, 5, 2, 8], 7));
 console.log(sumArraySumOfMinLength([1, 4, 0, 0, 0, 3, 10, 5], 7));
+
+module.exports = sumArraySumOfMinLength;
