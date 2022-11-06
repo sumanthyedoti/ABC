@@ -3,9 +3,8 @@
 
 function missingNumbers(arr) {
   const missingNumbers = []
-  for(let i = 1; i < arr.length; i++) {
-    if(arr[i-1] !== arr[i] - 1)
-      missingNumbers.push(arr[i] - 1)
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i - 1] !== arr[i] - 1) missingNumbers.push(arr[i] - 1)
   }
   return missingNumbers
 }

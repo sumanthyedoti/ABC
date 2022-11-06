@@ -6,12 +6,12 @@
  */
 
 function isRedTapeVisible(red, blues) {
-  if (red[1] < blues[0][0]) return true;
-  if (red[1] > blues[blues.length - 1][1]) return true;
+  if (red[1] < blues[0][0]) return true
+  if (red[1] > blues[blues.length - 1][1]) return true
   for (let i = 0; i < blues.length - 1; i++) {
-    if (blues[i + 1][0] - blues[i][1] > 0) return true;
+    if (blues[i + 1][0] - blues[i][1] > 0) return true
   }
-  return false;
+  return false
 }
 
 console.log(
@@ -22,7 +22,7 @@ console.log(
       [3, 5],
     ]
   )
-);
+)
 console.log(
   isRedTapeVisible(
     [3, 5],
@@ -31,7 +31,7 @@ console.log(
       [6, 7],
     ]
   )
-);
+)
 console.log(
   isRedTapeVisible(
     [3, 5],
@@ -40,4 +40,4 @@ console.log(
       [4, 7],
     ]
   )
-);
+)

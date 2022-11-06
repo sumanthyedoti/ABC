@@ -1,19 +1,19 @@
 function fibonacciSequence(n) {
   // keep track of previous two values
   let n1 = 0,
-    n2 = 1;
-  if (n == 1) return [n1];
-  if (n == 2) return [n1, n2];
-  const seq = [n1, n2];
+    n2 = 1
+  if (n == 1) return [n1]
+  if (n == 2) return [n1, n2]
+  const seq = [n1, n2]
   // keep adding until n
   for (let i = 2; i < n; i++) {
-    const current = n1 + n2;
+    const current = n1 + n2
     // update previous two values
-    n1 = n2;
-    n2 = current;
-    seq.push(current);
+    n1 = n2
+    n2 = current
+    seq.push(current)
   }
-  return seq;
+  return seq
 }
 
-console.log(fibonacciSequence(10));
+console.log(fibonacciSequence(10))

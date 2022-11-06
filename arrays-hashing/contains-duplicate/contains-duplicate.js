@@ -1,10 +1,10 @@
 function containsDuplicates(arr) {
-  const items = {};
+  const items = {}
   for (let i of arr) {
-    if (i in items) return true;
-    else items[i] = null;
+    if (i in items) return true
+    else items[i] = null
   }
-  return false;
+  return false
 }
 
-module.exports = containsDuplicates;
+module.exports = containsDuplicates
